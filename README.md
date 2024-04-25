@@ -12,8 +12,7 @@ navigated between using a button. The test simply does the follow:
 5. Navigate back to the main screen using the backstack.
 6. Ensure you're on the main screen.
 
-The check on step 6 will sometimes fail even though you're clearly on the main screen with the
-expected element visible.
+This sequence will fail on various steps even though the expected element is visible.
 
 ## How to easily trigger a test failure due to flakiness
 Run the following script which will repeat the instrumented test sequence repeatedly, for example
